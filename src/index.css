@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom class for clock */
+.clock-container {
+  @apply flex items-center justify-center h-screen bg-black text-white font-bold;
+  font-size: 60px; /* custom size */
+}
